@@ -25,13 +25,13 @@
                 <br/>
                 <input type="text" jsf:id="name" name="full_name" 
                        placeholder="John Doe" value="#{askD.name}" 
-                       required="required" title="Enter your name."/>
+                       required="true" title="Enter your name."/>
             </p>
             <p>
                 <label>Email:</label>
                 <br/>
                 <input type="email" jsf:id="email" name="email" 
-                       value="#{askD.emailadd}" required="required"
+                       value="#{askD.emailadd}" required="true"
                        title="Enter email."/>
             </p>
            
@@ -40,7 +40,7 @@
                 <label>Enter Question :</label>
                 <br/>
                 <h:inputTextarea  cols="75" rows="6"
-                       value="#{askD.question}" required="required"
+                       value="#{askD.question}" required="true"
                        title="Enter your question"/>
             </p>
                   Result : 
@@ -84,7 +84,7 @@
                 <br/>
                 <input type="text" jsf:id="name" name="full_name" 
                        placeholder="John Dave" value="#{ansD.namex}"
-                       required="required" title="Enter your name."/>
+                       required="true" title="Enter your name."/>
             </p>  
                     <p>
                         <label>Profession</label><br/>
@@ -100,14 +100,14 @@
                 <label>Email:</label>
                 <br/>
                 <input type="email" jsf:id="email" name="email" 
-                       required="required" value="#{ansD.emailaddx}"
+                       required="true" value="#{ansD.emailaddx}"
                        title="Enter email."/>
             </p>
                     <p>
                 <label>Your Response:</label>
                 <br/>
                <h:inputTextarea  cols="75" rows="6"
-                                 required="required" value="#{ansD.response}"
+                                 required="true" value="#{ansD.response}"
                        title="Enter your question"/>
                 
             </p>
