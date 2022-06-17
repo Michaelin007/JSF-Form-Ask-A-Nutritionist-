@@ -64,7 +64,7 @@ public class SendM implements Serializable {
                 
           
                 Transport transport=mailSession.getTransport("smtp");
-                transport.connect("smtp.gmail.com","askacnutri@gmail.com","luminary700");
+                transport.connect("smtp.gmail.com","askacnutri@gmail.com","l");
                 transport.sendMessage(mailMessage, mailMessage.getAllRecipients());
                 
         
